@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Error fetching countries:', error);
         }
     };
+    
 
     const createSkeletonCards = (count) => {
         return Array.from({ length: count }).map(() => `
